@@ -1,0 +1,34 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    background: hsl(240, 3%, 14%);
+}
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10em 2em;
+    background: #33383f;
+    color: whitesmoke;
+    padding: 1em 2.0em;
+    border: 1px solid rgb(173, 170, 170);
+    border-radius: 0.8em;
+    box-shadow: 2px 2px 4px rgb(103, 101, 101);
+}
+
+#zeitanzeige {
+    font-size: 5em;
+    margin-bottom: 25px;
+    font-family: monospace;
+}
+
+button {
+    font-size: 1.5em;
+    width: 100px;
+    margin: 0 10px;
+    border-radius: 0.5em;
+}
